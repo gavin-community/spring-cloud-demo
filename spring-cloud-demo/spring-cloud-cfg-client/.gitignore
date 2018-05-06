@@ -10,6 +10,7 @@ buildNumber.properties
 .project
 .classpath
 .settings/
+.factorypath
 .apt_generated/
 logs/
 
