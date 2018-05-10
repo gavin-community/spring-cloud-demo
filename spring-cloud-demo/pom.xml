@@ -39,6 +39,7 @@
 		<module>ribbon-server</module>
 		<module>feign-server</module>
 		<module>zuul-service</module>
+		<module>zipkin-server</module>
 	</modules>
 	<build>
 		<plugins>
