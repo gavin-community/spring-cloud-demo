@@ -18,4 +18,16 @@ public class HelloWorldController {
 	public String hi(@RequestParam String name) {
 		return helloWorldService.getHelloWorld(name);
 	}
+	
+	/**
+	 * 
+	 * 使用Hystrix断路器
+	 * @param name
+	 * @return
+	 * @author hui.long
+	 */
+	@RequestMapping(value = "hiHystrix")
+	public String helloW(@RequestParam String name) {
+		return helloWorldService.getHelloWorldForHystrix(name);
+	}
 }

@@ -1,0 +1,17 @@
+ribbon负载均衡客户端
+http://127.0.0.1:8764/hiHystrix?name=longhuiC
+http://127.0.0.1:8764/hi?name=longhuiAd
+http://127.0.0.1:8764/hystrix |http://127.0.0.1:8764/hystrix.stream |haha
+
+feign负载均衡客户端
+http://127.0.0.1:8765/sayHi?name=longhuid
+
+
+zuul路由网关
+127.0.0.1:8769/api-ribbon/hi?name=longhuiAd
+127.0.0.1:8769/api-ribbon/hiHystrix?name=longhuiAd
+127.0.0.1:8769/api-feign/sayHi?name=longhuiAd
+127.0.0.1:8769/api-feign/sayHi?name=longhuiAd&token=23
+
+配置中心(Spring Cloud Config)
+http://127.0.0.1:8002/hello

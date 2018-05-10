@@ -5,9 +5,15 @@ spring:
     name: spring-cloud-config-server
   cloud:
     config:
+      label: master
       server:
         git:
           uri: https://github.com/gavinlong82/spring-cloud-demo     # 配置git仓库的地址
           search-paths: cfg-repo     # git仓库地址下的相对地址，可以配置多个，用,分割。
           username: gavinlong82                               # git仓库的账号
           password: 1982dx09iqpl
+          
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
