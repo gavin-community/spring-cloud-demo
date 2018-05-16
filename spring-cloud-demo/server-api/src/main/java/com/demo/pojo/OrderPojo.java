@@ -1,9 +1,14 @@
 package com.demo.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
-public class OrderPojo {
+public class OrderPojo implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String orderNo;
 	private String orderName;
 	private Date createTime;

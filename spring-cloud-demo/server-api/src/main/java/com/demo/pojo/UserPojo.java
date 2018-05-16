@@ -1,6 +1,12 @@
 package com.demo.pojo;
 
-public class UserPojo {
+import java.io.Serializable;
+
+public class UserPojo implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Long userId;
 	private String userName;
 	private String loginName;

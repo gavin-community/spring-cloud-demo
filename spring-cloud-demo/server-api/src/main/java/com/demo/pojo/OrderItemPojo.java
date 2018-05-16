@@ -1,6 +1,12 @@
 package com.demo.pojo;
 
-public class OrderItemPojo {
+import java.io.Serializable;
+
+public class OrderItemPojo implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String orderNo;
 	private String productName;
 	private String productType;

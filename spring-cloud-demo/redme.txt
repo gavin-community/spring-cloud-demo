@@ -14,4 +14,18 @@ zuul路由网关
 127.0.0.1:8769/api-feign/sayHi?name=longhuiAd&token=23
 
 配置中心(Spring Cloud Config)
-http://127.0.0.1:8002/hello
+http://127.0.0.1:8761/
+
+
+OrderServer
+http://127.0.0.1:8870/order/create/{userId}
+http://127.0.0.1:8870/order/update
+
+
+UcServer
+http://127.0.0.1:8770/user/list?pageSize=2
+
+http://127.0.0.1:8770/user/{userId}
+
+http://127.0.0.1:8770/order/{userId}
+
