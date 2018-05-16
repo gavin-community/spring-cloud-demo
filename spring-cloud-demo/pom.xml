@@ -40,6 +40,10 @@
 		<module>feign-server</module>
 		<module>zuul-service</module>
 		<module>zipkin-server</module>
+		<module>uc-server</module>
+		<module>adc-server</module>
+		<module>order-server</module>
+		<module>server-api</module>
 	</modules>
 	<build>
 		<plugins>
