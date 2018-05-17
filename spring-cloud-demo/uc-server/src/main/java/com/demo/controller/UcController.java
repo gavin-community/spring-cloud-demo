@@ -50,7 +50,7 @@ public class UcController {
 
 	@RequestMapping("/user/{userId}")
 	public UserPojo getUserById(@PathVariable String userId) {
-		log.info(String.format(">>userId:%s", userId));
+		log.trace(String.format(">>userId:%s", userId));
 		return ucService.getUserById(Long.valueOf(userId));
 	}
 
