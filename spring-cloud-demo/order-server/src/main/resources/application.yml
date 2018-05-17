@@ -2,8 +2,8 @@ server:
   port: 8870
   
 spring:
- zipkin:
-  base-url: http://127.0.0.1:9411#服务链路追踪
+ #zipkin:
+  #base-url: http://127.0.0.1:9411#服务链路追踪
   
  application:
   name: service-order-feign
